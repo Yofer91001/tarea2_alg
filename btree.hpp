@@ -246,7 +246,7 @@ void Btree<T>::imprimirPorNiveles(Node<T>* n){
         
         myqueue.pop();
     }
-
+    std::cout << std::endl;
 }
 
 #endif
