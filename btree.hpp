@@ -226,8 +226,11 @@ void Btree<T>::test() {
 
 template<typename T>
 void Btree<T>::imprimirPorNiveles(){
-
-    imprimirPorNiveles(root);
+if(root != nullptr) {
+imprimirPorNiveles(root); 
+}else{
+std::cout << "\n";
+} 
 
 }
 
